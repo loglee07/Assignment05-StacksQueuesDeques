@@ -1,0 +1,48 @@
+
+===== ARRAY STACK =====
+1. Pop: empty handled correctly
+Top -> 30 20 10 
+5. Popped: 30
+Top -> 40 20 10 
+10. Pop: empty handled correctly
+Top -> [empty] 
+
+===== LINKED STACK =====
+1. Pop: empty handled correctly
+Top -> 300 200 100 
+5. Popped: 300
+Top -> 400 200 100 
+10. Pop: empty handled correctly
+Top -> [empty] 
+
+===== ARRAY QUEUE =====
+1. Dequeue: empty handled correctly
+Front -> 10 20 30 <- Rear
+5. Dequeued: 10
+Front -> 20 30 40 <- Rear
+10. Dequeue: empty handled correctly
+Front -> [empty] <- Rear
+
+===== LINKED QUEUE =====
+1. Dequeue: empty handled correctly
+Front -> 100 200 300 <- Rear
+5. Dequeued: 100
+Front -> 200 300 400 <- Rear
+10. Dequeue: empty handled correctly
+Front -> [empty] <- Rear
+
+===== ARRAY DEQUE =====
+1. Pop front: empty handled correctly
+Front -> 5 10 20 <- Back
+5. Popped front: 5
+Front -> 1 10 20 <- Back
+10. Pop back: empty handled correctly
+Front -> [empty] <- Back
+
+===== LINKED DEQUE =====
+1. Pop front: empty handled correctly
+Front -> 50 100 200 <- Back
+5. Popped front: 50
+Front -> 10 100 200 <- Back
+10. Pop back: empty handled correctly
+Front -> [empty] <- Back
